@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Sys user</title>
+    <style>
+        @import url(../../Content/style/sys_user.css);
+    </style>
+    <script src="../../Content/script/jQuery.js"></script>
+    <script src="../../Content/script/forms.js"></script>
+    <script src="../../Scripts/Models/BaseModel.js"></script>
+    <script src="../../Scripts/Models/UserModel.js"></script>
+    <script src="../../Scripts/Models/SysUser.js"></script>
+</head>
+<body>
+    <header></header>
+    <main>
+        <input type="hidden" id="SysUserId" name="SysUserId" value="0" />
+        <form>
+            <h1 title="Sys user">Sys User</h1>
+            <table>
+                <tbody>
+                    <tr>
+                        <th>
+                            <label for="firstName" class="f_name"><sup>*</sup>First name:</label>
+                        </th>
+                        <td>
+                            <input type="text" id="firstName" name="firstName" autocomplete="on" maxlength="50" pattern="[A-z]{1,}" placeholder="Enter your first name..." required="required" tabindex="1" title="The first name can contain only alphabetic characters" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label for="lastName"><sup>*</sup>Last name:</label>
+                        </th>
+                        <td>
+                            <input type="text" id="lastName" name="lastName" autocomplete="on" maxlength="50" pattern="[A-z]{1,}" placeholder="Enter your last name..." required="required" tabindex="2" title="The last name can contain only alphabetic characters" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label for="age"><sup>*</sup>Age:</label>
+                        </th>
+                        <td>
+                            <input type="number" id="age" name="age" autocomplete="on" min="1" max="100" placeholder="Age..." required="required" tabindex="3" title="Age can contain only numeric characters" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label for="password"><sup>*</sup>Password:</label>
+                        </th>
+                        <td>
+                            <input type="password" id="password" name="password" maxlength="20" required="required" pattern="((?=.*\d)(?=.*_)(?=.*[a-z])(?=.*[A-Z])(?=.*[\W]).{6,20})" placeholder="Enter your password..." tabindex="4" title="The password can contain at least 6 characters" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label for="confpassword"><sup>*</sup>Confirm Pass:</label>
+                        </th>
+                        <td>
+                            <input type="password" id="confpassword" name="confpassword" maxlength="20" required="required" pattern="((?=.*\d)(?=.*_)(?=.*[a-z])(?=.*[A-Z])(?=.*[\W]).{6,20})" placeholder="Confirm your password..." tabindex="5" title="The password can contain at least 6 characters" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label for="job">Job Title:</label>
+                        </th>
+                        <td>
+                            <select id="job" tabindex="6" title="Choose your job title (not required)">
+                                <option value="0" title="Area manager">Area manager</option>
+                                <option value="1" title="Region manager">Region manager</option>
+                                <option value="2" title="Executor">Executor</option>
+                            </select>
+                        </td>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <th>
+                            <label for="male">Gender:</label>
+                        </th>
+                        <td>
+                            <input type="radio" id="male" name="gender" class="male" value="male" tabindex="7" title="Male" />
+                            <label for="male">M</label>
+                            <input type="radio" id="female" name="gender" class="female" value="female" tabindex="8" title="Female" />
+                            <label for="female">F</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label for="isProfitA">Profit:</label>
+                        </th>
+                        <td>
+                            <input type="checkbox" id="isProfitA" name="isProfitA" class="a" value="a" tabindex="9" title="A" />
+                            <label for="isProfitA">A</label>
+                            <input type="checkbox" id="isProfitB" name="isProfitB" class="b" value="b" tabindex="10" title="B" />
+                            <label class="profit" for="isProfitB">B</label>
+                            <input type="checkbox" id="isProfitC" name="isProfitC" class="c" value="c" tabindex="11" title="C" />
+                            <label for="isProfitC">C</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label for="textarea">
+                                Teletype:
+                            </label>
+                        </th>
+                        <td>
+                            <textarea id="textarea" placeholder="Call me ..." tabindex="12" title="Call me"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th><label for="Country">Country:</label></th>
+                        <td>
+                            <input type="text" id="Country" name="CountryID" list="CountryID" placeholder="Select..." tabindex="13" title="Choose your country (not required)" />
+                            <datalist id="CountryID">
+                                <option value="Armenia"></option>
+                                <option value="England"></option>
+                                <option value="Russia"></option>
+                                <option value="USA"></option>
+                            </datalist>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <input type="file" name="file" id="file" tabindex="14" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <button type="submit" name="getFormGoogle" formaction="https://www.google.com/" formtarget="_blank" tabindex="15" title="Save">Save</button>
+                            <button type="reset" class="reset" tabindex="16" title="Cancel">Cancel</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    </main>
+</body>
+</html>

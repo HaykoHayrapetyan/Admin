@@ -1,0 +1,277 @@
+﻿@import url(https://fonts.googleapis.com/css?family=Pompiere);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,600,700);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Slab:400,600,700,300);
+* {
+    padding: 0;
+    margin: 0;
+}
+html, body {
+    height: 100%;
+}
+body {
+    cursor: url(../imgs/alt_curs.cur), auto;
+
+    overflow: hidden;
+}
+button {
+    min-width: 60px;
+    
+    color: #a9a9a9;
+    font-family: pompiere, cursive;
+    font-weight: 900;
+    line-height: 20px;
+
+    background: #444444;
+
+    padding: 5px;
+    border: none;
+    margin: 5px;
+
+    transition-duration: .1s;
+}
+button:active, button:active:hover {
+    background: #202020;
+}
+button:focus {
+    outline: 1px solid #a9a9a9;
+}
+button:hover {
+    background: #a52a2a;
+}
+button:hover, label:hover, select:hover {
+    cursor: url(../imgs/link_curs.cur), auto;
+}
+form table {
+    min-width: 515px;
+}
+form table td {
+    height: 50px;
+    width: 230px;
+
+    vertical-align: top;
+
+    padding: 2px 10px;
+}
+form table tr:nth-of-type(3) th {
+    padding-top: 6px;
+}
+fieldset {
+    color: #444444;
+
+    background-image: linear-gradient(to right, #444444 50%, #2d2d2d 50%), linear-gradient(to right, #444444 50%, #2d2d2d 50%), linear-gradient(to bottom, #444444 50%, #2d2d2d 50%), linear-gradient(to bottom, #444444 50%, #2d2d2d 50%);
+    background-repeat: repeat-x,  repeat-x,  repeat-y,  repeat-y;
+    background-size: 8px 4px, 8px 4px, 4px 8px, 4px 8px;
+    
+    border: none;
+    border-radius: 10px;
+
+    animation: border_move 1s linear infinite paused;
+}
+fieldset:hover {
+    background-image: linear-gradient(to right, #a52a2a 50%, #2d2d2d 50%), linear-gradient(to right, #a52a2a 50%, #2d2d2d 50%), linear-gradient(to bottom, #a52a2a 50%, #2d2d2d 50%), linear-gradient(to bottom, #a52a2a 50%, #2d2d2d 50%);
+
+    animation-play-state: running;
+}
+fieldset:hover legend {
+    e-shadow: -.4px -1.5px 0.5px #111, 1.5px 1.5px 0.5px #a52a2a;
+}
+fieldset:hover sup {
+    text-shadow: -1px -0.6px 0.5px #521515, 0.7px 0.3px 0.5px #c97f7f;
+}
+fieldset:hover sup, fieldset:hover .error_message {
+    color: #a52a2a; 
+}
+legend {
+    font-weight: 900;
+
+    background: #2d2d2d;
+
+    -webkit-margin-start: 30px;
+}
+input {
+    height: 32px;
+
+    overflow: hidden;
+
+    border: none;
+}
+input, select {
+    width: 198px;
+
+    color: #a9a9a9;
+    font-family: pompiere, cursive;
+    font-size: 16px;
+    font-weight: 900;
+    text-overflow: ellipsis;
+    
+    background: #363636;
+
+    padding: 3px 5px;
+    box-sizing: border-box;
+    margin-bottom: 4px;
+    
+    transition-duration: .2s;
+}
+input[type=email] + .error_message {
+    font-size: 11px
+}
+input[type=number] {
+    width: 90px;
+}
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+}
+input:focus {
+    padding-left: 10px;
+    outline: none;
+    box-shadow: -1px -1px 0.5px 1px #111, 1px 1px 0.5px 1px #363636;
+    
+    transform: scale(.97, .97);
+}
+input:focus, input:focus:hover {
+    background: #202020;
+}
+input:hover {
+    cursor: url(../imgs/text_curs.cur), auto;
+
+    background: #565656;
+}
+input:invalid {
+    color: #a52a2a;
+}
+label {
+    font-size: 24px;
+}
+legend {
+    font-size: 28px;
+}
+label, legend {
+    font-family: Raleway, sans-serif;
+}
+main {
+    display: block;
+
+    padding-top: 10%;
+}
+select {
+    height: 63px;
+
+    border: 1px solid #2d2d2d;
+    outline: none;
+}
+select:focus {
+    border: 1px solid #a9a9a9;
+}
+select:focus:hover {
+    background: #363636;
+}
+select:hover {
+    background: #565656;
+}
+select::-webkit-scrollbar {
+    width: 12px;
+}
+select::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+select::-webkit-scrollbar-track {
+    border-radius: 10px;
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+}
+sup {
+    font-family: Corbel;
+}
+table {
+    margin: auto;
+}
+table td:nth-of-type(1) form:nth-of-type(1) {
+    padding-right: 30px;
+}
+table td:nth-of-type(2) td {
+    width: 295px;
+}
+table td:nth-of-type(2) tr:nth-of-type(2) th {
+    width: 138px;
+
+    padding-top: 6px;
+}
+caption {
+    font-family: Raleway, sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+
+    margin-bottom: 40px;
+}
+caption:before {
+    height: 60px;
+    width: 60px;
+    
+    position: relative;
+    top: 5px;
+    right: 4px;
+
+    content: '';
+
+    background: url(../imgs/hammer.png);
+    background-size: cover;
+    display: inline-block;
+}
+caption, label, legend {
+    color: #202020;
+    letter-spacing: .1em;
+    text-rendering: optimizeLegibility;
+    text-shadow: -.4px -1.5px 0.5px #111, 1.5px 1.5px 0.5px #363636;
+    text-transform: uppercase;
+}
+td:nth-of-type(1) table:nth-of-type(1) th {
+    min-width: 240px;
+}
+th {
+    height: 50px;
+
+    text-align: right;
+    vertical-align: top;
+
+    padding-left: 15px;
+}
+tfoot {        
+    text-align: right;
+}
+
+.reset {
+    margin-right: 130px;
+}
+.error_message {
+    color: #565656;
+    font-family: josefin slab, serif;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+@keyframes border_move {
+  0% {
+    background-position: 0 0,  0 100%,  0 0,  100% 0;
+  }
+  100% {
+    background-position: 40px 0, -40px 100%, 0 -40px, 100% 40px;
+  }
+}
+@media screen and (min-width: 4000px) {
+    button, input[type=email] + .error_message, .error_message {
+        font-size: 5px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

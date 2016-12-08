@@ -1,0 +1,107 @@
+@import url(https://fonts.googleapis.com/css?family=Pompiere);
+* {
+    padding: 0;
+    margin: 0;
+}
+::-webkit-scrollbar {
+    max-width: 12px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb, ::-webkit-scrollbar-corner {
+    background: #2d2d2d;
+
+    box-shadow: inset 2px 0 8px rgba(0,0,0,0.5); 
+}
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+}
+a, details {
+    cursor: url(../imgs/link_curs.cur), auto;
+    text-decoration: none;
+}
+a:focus menuitem {
+    transform: scale(.8, .8);
+}
+a:visited, menuitem, details {
+    color: #a9a9a9;
+}
+a:focus {
+    outline: none;
+}
+details:focus {
+    outline: 1px solid #a9a9a9;
+}
+body {
+    background: #2d2d2d;
+}
+details {
+    width: 150px;
+
+    margin-top: 20px;
+}
+summary {
+    outline: none;
+}
+header {
+    height: 80px;
+    width: 100%;
+    min-width: 1400px;
+    
+    position: fixed;
+
+    cursor: url(../imgs/alt_curs.cur), auto;
+
+    background: #a52a2a;
+}
+html, body, main, object {
+    height: 100%;
+}
+img {
+    height: 50px;
+    width: 50px;
+    
+    position: relative;
+    top: 12px;
+
+    display: inline-block;
+
+    margin-left: 15px;
+}
+img, menu {
+    vertical-align: top;
+}
+menu {
+    display: inline-block;
+
+    margin-top: 16px;
+}
+menuitem {
+    margin: 4px 12px;
+}
+menuitem, details {
+    min-width: 80px;
+
+    font-family: pompiere, cursive;
+    font-size: 21px;
+    font-weight: 900;
+    text-align: center;
+
+    display: inline-block;
+
+    padding: 9px;
+    
+    transition-duration: .15s;
+}
+object {
+    height: 100%;
+    min-height: 750px;
+    width: 100%;
+    min-width: 1070px;
+}
+p {
+    margin-left: 20px;
+}
+

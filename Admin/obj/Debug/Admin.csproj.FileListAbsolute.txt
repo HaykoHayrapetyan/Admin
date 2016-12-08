@@ -1,0 +1,137 @@
+c:\users\hayk\documents\visual studio 2015\Projects\Admin\Admin\bin\ApplicationInsights.config
+c:\users\hayk\documents\visual studio 2015\Projects\Admin\Admin\bin\roslyn\csc.exe
+c:\users\hayk\documents\visual studio 2015\Projects\Admin\Admin\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\hayk\documents\visual studio 2015\Projects\Admin\Admin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\hayk\documents\visual studio 2015\Projects\Admin\Admin\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\hayk\documents\visual studio 2015\Projects\Admin\Admin\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\hayk\documents\visual studio 2015\Projects\Admin\Admin\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\hayk\documents\visual studio 2015\Projects\Admin\Admin\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\hayk\documents\visual studio 2015\Projects\Admin\Admin\bin\roslyn\System.Collections.Immutable.dll
+c:\users\hayk\documents\visual studio 2015\Projects\Admin\Admin\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\hayk\documents\visual studio 2015\Projects\Admin\Admin\bin\roslyn\vbc.exe
+c:\users\hayk\documents\visual studio 2015\Projects\Admin\Admin\bin\roslyn\VBCSCompiler.exe
+c:\users\hayk\documents\visual studio 2015\Projects\Admin\Admin\bin\roslyn\VBCSCompiler.exe.config
+c:\users\hayk\documents\visual studio 2015\Projects\Admin\Admin\bin\Admin.dll.config
+c:\users\hayk\documents\visual studio 2015\Projects\Admin\Admin\bin\Admin.dll
+c:\users\hayk\documents\visual studio 2015\Projects\Admin\Admin\bin\Admin.pdb
+c:\users\hayk\documents\visual studio 2015\Projects\Admin\Admin\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\hayk\documents\visual studio 2015\Projects\Admin\Admin\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\hayk\documents\visual studio 2015\Projects\Admin\Admin\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\hayk\documents\visual studio 2015\Projects\Admin\Admin\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\hayk\documents\visual studio 2015\Projects\Admin\Admin\bin\Microsoft.AI.Web.dll
+c:\users\hayk\documents\visual studio 2015\Projects\Admin\Admin\bin\Microsoft.AI.WindowsServer.dll
+c:\users\hayk\documents\visual studio 2015\Projects\Admin\Admin\bin\Microsoft.ApplicationInsights.dll
+c:\users\hayk\documents\visual studio 2015\Projects\Admin\Admin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\hayk\documents\visual studio 2015\Projects\Admin\Admin\bin\Microsoft.Web.Infrastructure.dll
+c:\users\hayk\documents\visual studio 2015\Projects\Admin\Admin\bin\System.Web.Helpers.dll
+c:\users\hayk\documents\visual studio 2015\Projects\Admin\Admin\bin\System.Web.Mvc.dll
+c:\users\hayk\documents\visual studio 2015\Projects\Admin\Admin\bin\System.Web.Razor.dll
+c:\users\hayk\documents\visual studio 2015\Projects\Admin\Admin\bin\System.Web.Webpages.Deployment.dll
+c:\users\hayk\documents\visual studio 2015\Projects\Admin\Admin\bin\System.Web.Webpages.dll
+c:\users\hayk\documents\visual studio 2015\Projects\Admin\Admin\bin\System.Web.Webpages.Razor.dll
+c:\users\hayk\documents\visual studio 2015\Projects\Admin\Admin\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\hayk\documents\visual studio 2015\Projects\Admin\Admin\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\hayk\documents\visual studio 2015\Projects\Admin\Admin\bin\Microsoft.AI.Web.xml
+c:\users\hayk\documents\visual studio 2015\Projects\Admin\Admin\bin\Microsoft.AI.WindowsServer.xml
+c:\users\hayk\documents\visual studio 2015\Projects\Admin\Admin\bin\Microsoft.ApplicationInsights.xml
+c:\users\hayk\documents\visual studio 2015\Projects\Admin\Admin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\hayk\documents\visual studio 2015\Projects\Admin\Admin\bin\System.Web.Razor.xml
+c:\users\hayk\documents\visual studio 2015\Projects\Admin\Admin\bin\System.Web.Webpages.xml
+c:\users\hayk\documents\visual studio 2015\Projects\Admin\Admin\bin\System.Web.Webpages.Deployment.xml
+c:\users\hayk\documents\visual studio 2015\Projects\Admin\Admin\bin\System.Web.Webpages.Razor.xml
+c:\users\hayk\documents\visual studio 2015\Projects\Admin\Admin\bin\System.Web.Helpers.xml
+c:\users\hayk\documents\visual studio 2015\Projects\Admin\Admin\bin\System.Web.Mvc.xml
+c:\users\hayk\documents\visual studio 2015\Projects\Admin\Admin\obj\Debug\Admin.csprojResolveAssemblyReference.cache
+c:\users\hayk\documents\visual studio 2015\Projects\Admin\Admin\obj\Debug\Admin.dll
+c:\users\hayk\documents\visual studio 2015\Projects\Admin\Admin\obj\Debug\Admin.pdb
+F:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\ApplicationInsights.config
+F:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\roslyn\csc.exe
+F:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\roslyn\System.Collections.Immutable.dll
+F:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\roslyn\System.Reflection.Metadata.dll
+F:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\roslyn\vbc.exe
+F:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\roslyn\VBCSCompiler.exe
+F:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\roslyn\VBCSCompiler.exe.config
+F:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\Admin.dll.config
+F:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\Admin.dll
+F:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\Admin.pdb
+F:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\Microsoft.AI.Agent.Intercept.dll
+F:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\Microsoft.AI.DependencyCollector.dll
+F:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\Microsoft.AI.Web.dll
+F:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\Microsoft.AI.WindowsServer.dll
+F:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\Microsoft.ApplicationInsights.dll
+F:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\Microsoft.Web.Infrastructure.dll
+F:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\System.Web.Helpers.dll
+F:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\System.Web.Mvc.dll
+F:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\System.Web.Razor.dll
+F:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\System.Web.Webpages.Deployment.dll
+F:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\System.Web.Webpages.dll
+F:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\System.Web.Webpages.Razor.dll
+F:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\Microsoft.AI.DependencyCollector.xml
+F:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\Microsoft.AI.ServerTelemetryChannel.xml
+F:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\Microsoft.AI.Web.xml
+F:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\Microsoft.AI.WindowsServer.xml
+F:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\Microsoft.ApplicationInsights.xml
+F:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\System.Web.Razor.xml
+F:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\System.Web.Webpages.xml
+F:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\System.Web.Webpages.Deployment.xml
+F:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\System.Web.Webpages.Razor.xml
+F:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\System.Web.Helpers.xml
+F:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\System.Web.Mvc.xml
+F:\Users\Hayk\Desktop\Hayko\Admin\Admin\obj\Debug\Admin.csprojResolveAssemblyReference.cache
+F:\Users\Hayk\Desktop\Hayko\Admin\Admin\obj\Debug\Admin.dll
+F:\Users\Hayk\Desktop\Hayko\Admin\Admin\obj\Debug\Admin.pdb
+C:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\ApplicationInsights.config
+C:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\roslyn\csc.exe
+C:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\roslyn\vbc.exe
+C:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\roslyn\VBCSCompiler.exe
+C:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\Admin.dll
+C:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\Admin.pdb
+C:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\Microsoft.AI.Web.dll
+C:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\System.Web.Helpers.dll
+C:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\System.Web.Mvc.dll
+C:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\System.Web.Razor.dll
+C:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\System.Web.Webpages.dll
+C:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\System.Web.Webpages.Razor.dll
+C:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\Microsoft.AI.Web.xml
+C:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\System.Web.Razor.xml
+C:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\System.Web.Webpages.xml
+C:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\System.Web.Webpages.Razor.xml
+C:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\System.Web.Helpers.xml
+C:\Users\Hayk\Desktop\Hayko\Admin\Admin\bin\System.Web.Mvc.xml
+C:\Users\Hayk\Desktop\Hayko\Admin\Admin\obj\Debug\Admin.csprojResolveAssemblyReference.cache
+C:\Users\Hayk\Desktop\Hayko\Admin\Admin\obj\Debug\Admin.dll
+C:\Users\Hayk\Desktop\Hayko\Admin\Admin\obj\Debug\Admin.pdb

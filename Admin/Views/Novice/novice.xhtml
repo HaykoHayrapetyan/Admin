@@ -1,0 +1,202 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Novice</title>
+    <style>
+        @import url(../../Content/style/novice.css);
+    </style>
+    <script src="../../Content/script/jQuery.js"></script>
+    <script src="../../Content/script/forms.js"></script>
+
+    <script src="../../Scripts/PassiveModel/novice.js"></script>
+    <script src="../../Scripts/ActiveModel/novice.js"></script>
+    <script src="../../Scripts/Controller/novice.js"></script>
+ 
+    <!--<script src="../../Scripts/Models/BaseModel.js"></script>-->
+    <!--<script src="../../Scripts/Models/UserModel.js"></script>-->
+    <!--<script src="../../Scripts/Models/Novice.js"></script>-->
+    <!--<script src="../../Scripts/DB/novices.mongodb"></script>-->
+    <script>
+        var noviceJson = {
+            FirstName: 'FirstName',
+            LastName: 'LastName',
+            MiddleName: 'MiddleName',
+            Password: 'Password',
+            CountryID: 0,
+            PhoneNumber: 'PhoneNumber',
+            CellNumber: 'CellNumber',
+            Website: 'Website',
+            Email: 'Email',
+            Age: 'Age',
+            State: 'State'
+        };
+        var novice1 = new Novice(noviceJson);
+        novice1.insert();
+        console.log(novice1);
+    </script>
+</head>
+<body>
+    <header></header>
+    <main>
+        <button type="button">New</button>
+        <table>
+            <caption title="Novice Registration">Novice Registration</caption>
+            <tbody>
+                <tr>
+                    <td>
+                        <form>
+                            <input type="hidden" id="NoviceID" name="NoviceID" value="0" />
+                            <fieldset>
+                                <legend>Google form</legend>
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <th>
+                                                <label for="firstName" class="f_name"><sup>*</sup>First name:</label>
+                                            </th>
+                                            <td>
+                                                <input type="text" id="firstName" name="FirstName" autocomplete="on" maxlength="50" pattern="[A-z]{1,}" placeholder="Enter your first name..." required="required" tabindex="1" title="The first name can contain only alphabetic characters" />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>
+                                                <label for="lastName"><sup>*</sup>Last name:</label>
+                                            </th>
+                                            <td>
+                                                <input type="text" id="lastName" name="LastName" autocomplete="on" maxlength="50" pattern="[A-z]{1,}" placeholder="Enter your last name..." required="required" tabindex="2" title="The last name can contain only alphabetic characters" />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>
+                                                <label for="middleName">Middle name: </label>
+                                            </th>
+                                            <td>
+                                                <input type="text" id="middleName" name="MiddleName" autocomplete="on" maxlength="50" pattern="[A-z]{1,}" placeholder="Enter your middle name..." tabindex="3" title="The middle name can contain only alphabetic characters (not required)" />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>
+                                                <label for="password"><sup>*</sup>Password:</label>
+                                            </th>
+                                            <td>
+                                                <input type="password" id="password" name="Password" maxlength="20" required="required" pattern="((?=.*\d)(?=.*_)(?=.*[a-z])(?=.*[A-Z])(?=.*[\W]).{6,20})" placeholder="Enter your password..." tabindex="4" title="The password can contain at least 6 characters" />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>
+                                                <label for="confpassword"><sup>*</sup>Confirm Pass:</label>
+                                            </th>
+                                            <td>
+                                                <input type="password" id="confpassword" name="ConfPassword" maxlength="20" required="required" pattern="((?=.*\d)(?=.*_)(?=.*[a-z])(?=.*[A-Z])(?=.*[\W]).{6,20})" placeholder="Confirm your password..." tabindex="5" title="The password can contain at least 6 characters" />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>
+                                                <label for="country">Country:</label>
+                                            </th>
+                                            <td>
+                                                <select id="country" name="CountryID" size="3" tabindex="6" title="Choose your country (not required)">
+                                                    <option value="0">USA</option>
+                                                    <option value="1">Russia</option>
+                                                    <option value="2">Armenia</option>
+                                                    <option value="3">England</option>
+                                                    <option value="4">France</option>
+                                                    <option value="5">Italy</option>
+                                                    <option value="6">Germany</option>
+                                                    <option value="7">Sweden</option>
+                                                    <option value="8">Canada</option>
+                                                </select>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                    <tfoot>
+                                        <tr>
+                                            <td colspan="2">
+                                                <button type="submit" name="getFormGoogle" formaction="https://www.google.com/" formtarget="_blank" tabindex="7" title="Save">Save</button>
+                                                <button type="reset" class="reset" tabindex="8" title="Cancel">Cancel</button>
+                                            </td>
+                                        </tr>
+                                    </tfoot>
+                                </table>
+                            </fieldset>
+                        </form>
+                    </td>
+                    <td>
+                        <form>
+                            <fieldset>
+                                <legend>W3Schools form</legend>
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <th>
+                                                <label for="phone"><sup>*</sup>Phone:</label>
+                                            </th>
+                                            <td>
+                                                <input type="tel" id="phone" name="PhoneNumber" autocomplete="on" maxlength="30" pattern="[0-9]{9,20}" placeholder="Enter your phone number..." required="required" tabindex="9" title="The phone number can contain at least 9 numeric characters" />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>
+                                                <label for="cell">Cell:</label>
+                                            </th>
+                                            <td>
+                                                <input type="tel" id="cell" name="CellNumber" autocomplete="on" maxlength="30" pattern="[0-9]{9,20}" placeholder="Enter your cell number..." tabindex="10" title="The cell number can contain at least 9 numeric characters (not required)" />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>
+                                                <label for="website">Website:</label>
+                                            </th>
+                                            <td>
+                                                <input type="text" id="website" name="Website" autocomplete="on" maxlength="30" pattern="(w){3}\.([A-z0-9]){1,20}\.([a-z]{2,3})" placeholder="Enter your URL..." tabindex="11" title="The website requested format must be like URL (not required)" />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>
+                                                <label for="email"><sup>*</sup>Email:</label>
+                                            </th>
+                                            <td>
+                                                <input type="email" id="email" name="Email" autocomplete="on" maxlength="30" pattern="^[-\w.]+@([A-z0-9][-A-z0-9]+\.)+[A-z]{2,4}$" placeholder="Enter your EMail..." required="required" tabindex="12" title="The email requested format must be like EMail address" />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>
+                                                <label for="age"><sup>*</sup>Age:</label>
+                                            </th>
+                                            <td>
+                                                <input type="number" id="age" name="Age" autocomplete="on" min="1" max="100" placeholder="Age..." required="required" tabindex="13" title="Age can contain only numeric characters" />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>
+                                                <label for="state">State:</label>
+                                            </th>
+                                            <td>
+                                                <select id="state" name="State" multiple="multiple" tabindex="14" title="Choose your state (not required)">
+                                                    <option value="0">A</option>
+                                                    <option value="1">B</option>
+                                                    <option value="2">C</option>
+                                                    <option value="3">D</option>
+                                                    <option value="4">E</option>
+                                                </select>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                    <tfoot>
+                                        <tr>
+                                            <td colspan="2">
+                                                <button type="submit" name="postFormW3Schools" formaction="http://www.w3schools.com" formtarget="_blank" title="Save">Save</button>
+                                                <button type="reset" class="reset" title="Cancel">Cancel</button>
+                                            </td>
+                                        </tr>
+                                    </tfoot>
+                                </table>
+                            </fieldset>
+                        </form>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>
